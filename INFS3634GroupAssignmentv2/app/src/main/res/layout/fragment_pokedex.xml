@@ -4,11 +4,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.PokedexFragment">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="How to use"
+        android:textSize="26sp" />
 
+    <TextView
+        android:layout_marginTop="70dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:text="Using the Pokedex, you are able to search up any pokemon using their pokedex number, name or type and view the details of their stats \n \n You are also able to write your own notes to help you study for the quiz, through the notes function!"
+        android:textSize="16sp"
+        android:gravity= "center"/>
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/imageView"
+        android:layout_width="334dp"
+        android:layout_height="387dp"
+        tools:src="@drawable/pokedex" />
     <Button
         android:id="@+id/startPokedexButton"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_marginTop="500dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top" />
+        android:layout_height="100dp"
+        android:layout_gravity="top"
+        android:text= "Open Pokedex"/>
 
 </FrameLayout>

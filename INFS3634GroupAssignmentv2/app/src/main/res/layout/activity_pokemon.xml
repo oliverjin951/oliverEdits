@@ -45,17 +45,18 @@
 
         <Button
             android:id="@+id/infoButton"
-            android:layout_width="wrap_content"
+            android:layout_width="210dp"
             android:layout_height="match_parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"/>
 
         <Button
             android:id="@+id/flashCardButton"
-            android:layout_width="wrap_content"
+            android:layout_width="210dp"
             android:layout_height="match_parent"
-            app:layout_constraintTop_toTopOf="@id/infoButton"
-            app:layout_constraintStart_toEndOf="@id/infoButton"/>
+
+            app:layout_constraintStart_toEndOf="@id/infoButton"
+            app:layout_constraintTop_toTopOf="@id/infoButton" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <FrameLayout

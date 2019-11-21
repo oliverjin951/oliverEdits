@@ -1,15 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.GameFragment">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="How to play"
+        android:textSize="26sp" />
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:text="Battle pokemon trainers and gym leaders to progress through the 7 gyms, earn badges and show off your knowledge of the pokemon universe! \n \n Each battle requires a score of 5/5 to progress onto the next stage \n \n Best of luck trainers!"
+        android:textSize="16sp"
+        android:gravity= "center"/>
+
     <Button
+        android:text= "Challenge Gym"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_marginTop="500dp"
+
         android:id="@+id/startGameButton"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:layout_gravity="top" />
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/imageView"
+        android:layout_width="334dp"
+        android:layout_height="387dp"
+        tools:src="@drawable/pika" />
+
 
 </FrameLayout>
